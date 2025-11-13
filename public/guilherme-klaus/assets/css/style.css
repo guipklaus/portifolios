@@ -1,0 +1,29 @@
+body {
+  background: #0b0b0b;
+  color: #f1f1f1;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 3rem;
+}
+
+.sections {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.section {
+  background: #1f1f1f;
+  padding: 1.5rem 3rem;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #00ffcc;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.section:hover {
+  transform: scale(1.05);
+  background: #00ffcc;
+  color: #111;
+}

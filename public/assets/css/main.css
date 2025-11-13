@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 2rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.card {
+  background: #222;
+  color: #00ff99;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.card:hover {
+  background: #00ff99;
+  color: #111;
+}
