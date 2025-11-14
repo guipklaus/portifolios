@@ -8,16 +8,19 @@ body {
 }
 
 .projects {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 20px;
 }
 
 .project {
   max-width: 500px;
-  background: #1e1e1e;
+  background: #111;
   border-radius: 12px;
   padding: 20px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  text-align: center;
 }
 
 .slideshow {
